@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="row">
+{% for note in notes %}
+    <span class="border rounded;" style="width:200px; height:100px;">
+        <button type="button" class="close" aira-label="Close" >
+            <span aria-hidden="true" style=" padding-bottom:0px;">&times;</span>
+        </button>
+        <span class="text-align:center">
+            {{note.title}}
+        </span>
+        <hr class="line" />
+    </span>
+{% endfor %}
+
+</div>
+{% endblock %}

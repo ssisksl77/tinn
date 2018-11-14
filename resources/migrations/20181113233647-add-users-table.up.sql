@@ -7,3 +7,11 @@ CREATE TABLE users
  last_login TIMESTAMP,
  is_active BOOLEAN,
  pass VARCHAR(300));
+
+
+CREATE TABLE notes
+(id bigint auto_increment primary key,
+ author_id VARCHAR(20),
+ title VARCHAR(100),
+ context VARCHAR(1000)
+ )
