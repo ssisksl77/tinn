@@ -1,1 +1,3 @@
 DROP TABLE users;
+DROP SEQUENCE note_id;
+DROP TABLE notes

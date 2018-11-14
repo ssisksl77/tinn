@@ -33,4 +33,3 @@
   (GET "/" [] (home-page))
   (GET "/notes" [] (notes-page test-notes))
   (GET "/about" [] (about-page)))
-
